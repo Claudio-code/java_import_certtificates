@@ -7,12 +7,11 @@
 ## How use
 
 - In the folder of that project, run the command.
+
 ```bash
- ./install_certs.sh -j "/home/claudio/.sdkman/candidates/java/17.0.4-oracle/lib/security/cacerts" -k "./keysPath"
+ ./install_certs.sh -k "./keysPath"
 ```
 
 | Flag | flag meaning                                     |
-|------|--------------------------------------------------|
-| -j   | java cacerts path                                |
+| ---- | ------------------------------------------------ |
 | -k   | folder where the keys to be imported are located |
-
